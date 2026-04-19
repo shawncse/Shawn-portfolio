@@ -1,0 +1,107 @@
+/* Smooth Scroll */
+html { scroll-behavior: smooth; }
+
+body {
+    cursor: none;
+}
+
+a, button, input, textarea {
+    cursor: auto;
+}
+
+/* Custom Inputs */
+.input-field {
+    width: 100%;
+    padding: 1rem;
+    background: #000;
+    border: 1px solid #27272a;
+    border-radius: 0.75rem;
+    outline: none;
+    transition: 0.3s;
+}
+.input-field:focus {
+    border-color: #CCFF00;
+    box-shadow: 0 0 15px rgba(204, 255, 0, 0.1);
+}
+
+/* Skill Pills */
+.skill-pill {
+    padding: 0.75rem 2rem;
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: default;
+    transition: 0.3s;
+}
+.skill-pill:hover {
+    border-color: #CCFF00;
+    color: #CCFF00;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px #CCFF00;
+}
+
+/* Project Card Glow */
+.project-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px -20px rgba(204, 255, 0, 0.4);
+}
+
+.cursor-glow,
+.cursor-blur {
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.cursor-glow {
+    width: 24px;
+    height: 24px;
+    border-radius: 9999px;
+    background: rgba(204, 255, 0, 0.95);
+    box-shadow: 0 0 20px rgba(204, 255, 0, 0.85), 0 0 40px rgba(204, 255, 0, 0.45), 0 0 80px rgba(204, 255, 0, 0.2);
+}
+
+.cursor-blur {
+    width: 140px;
+    height: 140px;
+    border-radius: 9999px;
+    background: rgba(204, 255, 0, 0.14);
+    filter: blur(24px);
+    animation: cursor-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes cursor-pulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(0.95); }
+    50% { transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* typing text  */
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid #CCFF00;
+  white-space: nowrap;
+  width: 0;
+  /* 15ch mane 15 character er width */
+  animation: 
+    typing 4s steps(15, end) infinite, 
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  0%, 10% { width: 0; }
+  45%, 55% { width: 15ch; } /* Shudu 15 ta character porjonto jabe */
+  90%, 100% { width: 0; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #CCFF00; }
+}

@@ -1,0 +1,47 @@
+{
+  "workExperience": [
+    {
+      "id": 1,
+      "job_title": "Director of Human Resources",
+      "organization": "International Youth Change Maker",
+      "date": "Dec 2025 - Present",
+      "description": "Leading HR initiatives for a global network of 50,000+ young leaders, enhancing organizational capacity through strategic administrative coordination and youth empowerment initiatives."
+    },
+    {
+      "id": 2,
+      "job_title": "Institute Leader",
+      "organization": "One Man Army",
+      "date": "Feb 2026 - Present",
+      "description": "Leading institutional initiatives and coordinating various academic and professional development programs."
+    },
+    {
+      "id": 3,
+      "job_title": "Department Representative",
+      "organization": "Bangladesh Advanced Research Training Center",
+      "date": "Nov 2025 - Present",
+      "description": "Representing departmental perspectives in key discussions, facilitating coordination of scholarly activities, strengthening stakeholder communication, and promoting collaborative research culture."
+    },
+    {
+      "id": 4,
+      "job_title": "Executive Committee Member",
+      "organization": "IEEE EU Student Branch",
+      "date": "Jan 2025 - Dec 2025",
+      "description": "Supported and organized technical and professional development activities. Contributed to volunteering efforts, event coordination, teamwork, and program execution. Managed data organization and documentation."
+    },
+    {
+      "id": 5,
+      "job_title": "Independent Research Learner",
+      "organization": "Security in Brain-Computer Interfaces",
+      "date": "Mar 2025 - Present",
+      "description": "Exploring security and privacy challenges in Brain-Computer Interface (BCI) systems, focusing on safeguarding neural data such as thoughts, emotions, and decision-making patterns from cyber threats and privacy risks."
+    },
+    {
+      "id": 6,
+      "job_title": "Campus Ambassador",
+      "organization": "International Youth Change Maker",
+      "date": "Sep 2025 - Present",
+      "description": "Empowering youth voices, driving meaningful initiatives, and creating real social impact through this inspiring platform. Representing campus perspectives and contributing to positive change."
+    }
+    
+  ]
+}
